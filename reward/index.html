@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <header>
+    <h1 class=" silvia"> <span class="glow">Silvia Toflecica</span>  </h1>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <!-- first line-->
+        <div class="col">
+          <p class="description">
+            the
+          </p>
+          <img onclick="onClick(this)" class="one" src="img/silvia/1.jpg" alt="silvia">
+        </div>
+        <div class="col">
+          <p class="description">
+            most
+          </p>
+          <img class="two" onclick="onClick(this)" src="img/silvia/2.jpg" alt="silvia">
+        </div>
+        <div class="col">
+          <p class="description">
+            beautiful
+          </p>
+          <img class="three" onclick="onClick(this)"  src="img/silvia/3.jpg" alt="silvia">
+        </div>
+        <div class="col">
+          <p class="description">
+            girl
+          </p>
+            <img class="four" onclick="onClick(this)"  src="img/silvia/4.jpg" alt="silvia">
+        </div>
+          <!-- second line-->
+
+        <div class="col">
+          <p class="description">
+            in
+          </p>
+          <div class="tooltip">      
+            <figure>
+              <img class="fix" src="img/silvia/6.jpg" alt="silvia">
+            </figure>
+            <span class="tooltiptext">You are a miracle</span>
+          </div>
+        </div>
+
+        <div class="col">
+          <p class="description">
+            the
+          </p>
+            <div class="tooltip">  
+                <img class="seven" src="img/silvia/7.jpg" alt="silvia">
+              <span class="tooltiptext">You are a belssing from above</span>
+            </div>
+          </div>
+
+        <div class="col">
+          <p class="description">
+            .....................
+          </p>
+            <div class="tooltip">  
+              <img class="eight"  src="img/silvia/8.jpg" alt="silvia">
+              <span class="tooltiptext">brought joy to your parents souls</span>
+            </div>
+          </div>
+
+        <div class="col">
+          <p class="desc">
+            <img class="emoji" src="img/emoji.png" alt="">
+          </p>
+          <div class="tooltip">  
+            <img class="five"  src="img/silvia/5.jpg" alt="silvia">
+            <span class="tooltiptext">And pleasure to their eyes</span>
+          </div>
+        </div>
+
+         <!-- third line-->
+
+        <div class="col">
+          <p class="description">
+            never
+          </p>
+          <div class="tooltip">  
+            <img class="nine"  src="img/silvia/9.jpg" alt="silvia">
+            <span class="tooltiptext">You are like a shining star</span>
+          </div>
+        </div>
+
+        <div class="col">
+          <p class="description">
+            give
+          </p>
+          <div class="tooltip"> 
+            <img class="ten"  src="img/silvia/10.jpg" alt="silvia">
+            <span class="tooltiptext">So beautiful you are</span>
+          </div>
+        </div>
+
+        <div class="col">
+          <p class="description">
+            up
+          </p>
+          <div class="tooltip"> 
+            <img class="eleven"  src="img/silvia/11.jpg" alt="silvia">
+            <span class="tooltiptext">you lighting up the world</span>
+          </div>
+        </div>
+
+        <div class="col">
+          <p class="desc">
+            <img class="emoji" src="img/emoji2.png" alt="">
+          </p>
+          <div class="tooltip"> 
+            <img class="twelv" src="img/silvia/12.jpg" alt="silvia">
+            <span class="tooltiptext">:)</span>
+          </div>
+        </div>
+      
+      </div>
+
+      <div id="modal01" onclick="this.style.display='none'">       
+        <div>
+          <img id="img01">
+        </div>
+      </div>
+    </div>
+
+   
+
+
+  
+    <script>
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+      }
+      </script>
+</body>
+</html>
